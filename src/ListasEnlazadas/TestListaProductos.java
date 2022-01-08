@@ -13,6 +13,13 @@ public class TestListaProductos {
         lista.insertarProducto("Polo", 65.00);
         lista.añadirProducto("Teclado", 248.00);
         
+        //Intenta insertando o añadiendo más productos.
+        lista.mostrarProductos();
+        
+        //Eliminamos un producto, en el indice 2.
+        lista.eliminarProducto(2);
+        
+        //Intenta eliminar más productos
         lista.mostrarProductos();
     }
 }
